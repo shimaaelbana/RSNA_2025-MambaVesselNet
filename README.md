@@ -22,11 +22,36 @@ Our customized RSNA-MambaVesselNet++ effectively models both local texture detai
 🩺 Achieved accurate and efficient vessel segmentation tailored for aneurysm detection tasks.
 
 
-## 🚀 Quickstart
+🚀## How to Run
 
-### ✅ Step 1 — Clone the Repository
+✅ Step 1 — Clone the Repository
 Please make sure your environment supports **CUDA ≥ 12.4**
 
 ```bash
 git clone https://github.com/shimaaelbana/RSNA_2025-MambaVesselNet.git
 cd RSNA_2025-MambaVesselNet
+
+✅ Step 2 — Install PyTorch (CUDA 12.4 support)
+pip install torch==2.6.0+cu124 torchvision==0.21.0+cu124 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+
+✅ Step 3 — Fix Ninja installation (optional but recommended)
+
+pip uninstall -y ninja
+pip install ninja --no-cache-dir --force-reinstall
+
+✅ Step 4 — Install causal-conv1d
+
+cd causal-conv1d
+python setup.py install
+cd ..
+
+✅ Step 5 — Install Mamba
+
+cd mamba
+python setup.py install
+cd ..
+
+✅ Step 6 — Install Required Libraries
+
+pip install loguru monai nibabel tqdm scikit-image
+
