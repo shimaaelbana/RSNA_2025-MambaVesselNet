@@ -1,0 +1,14 @@
+{
+    "overall_distribution": {
+        "MRA": 41
+    },
+    "train": {
+        "MRA": 28
+    },
+    "val": {
+        "MRA": 6
+    },
+    "test": {
+        "MRA": 7
+    }
+}
