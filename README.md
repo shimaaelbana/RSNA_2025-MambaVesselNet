@@ -20,3 +20,13 @@ Our customized RSNA-MambaVesselNet++ effectively models both local texture detai
 ⚙️ Combined CNN-based texture extraction with Mamba-based long-range modeling.
 
 🩺 Achieved accurate and efficient vessel segmentation tailored for aneurysm detection tasks.
+
+
+## 🚀 Quickstart
+
+### ✅ Step 1 — Clone the Repository
+Please make sure your environment supports **CUDA ≥ 12.4**
+
+```bash
+git clone https://github.com/shimaaelbana/RSNA_2025-MambaVesselNet.git
+cd RSNA_2025-MambaVesselNet
