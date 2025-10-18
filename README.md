@@ -67,5 +67,33 @@ cd ..
 ✅ Step 6 — Install Required Libraries
 
 ```bash
-pip install loguru monai nibabel tqdm scikit-image
+pip install loguru monai nibabel tqdm scikit-image SimpleITK torchprofile
+```
+
+🧠 Training & Evaluation
+
+🔹 Train the Model
+
+```bash
+python /MambaVesselNet/train.py \
+    --dataset /MambaVesselNet/mamba/dataset/dataset.json \
+    --checkpoint_dir /content/drive/MyDrive/Mamba_Results \
+    --pretrain_weights /MRA_Waromstart_5000.ckpt \
+    --batch_size 8 \
+    --max_iter 5000 \
+    --num_classes 2 \
+    --valid_iter 200 \
+    --lr 1e-4 \
+    --num_workers 0
+```
+
+🔹 Test the Model
+
+```bash
+python /content/MambaVesselNet/test.py
+```
+
+🔹 Evaluate the Model
+```bash
+python /content/MambaVesselNet/evaluation.py
 ```
