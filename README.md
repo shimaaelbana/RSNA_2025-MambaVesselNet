@@ -75,16 +75,18 @@ pip install loguru monai nibabel tqdm scikit-image SimpleITK torchprofile
 🔹 Train the Model
 
 ```bash
-python /MambaVesselNet/train.py \
-    --dataset /MambaVesselNet/mamba/dataset/dataset.json \
-    --checkpoint_dir /content/drive/MyDrive/Mamba_Results \
-    --pretrain_weights /MRA_Waromstart_5000.ckpt \
+!python /MambaVesselNet/train.py \
+    --dataset /dataset.json \
+    --checkpoint_dir /Mamba_Results \
+    --pretrain_weights /Mamba_Results/MRA_BS8_5000_warmstartbest_model.ckpt \
     --batch_size 8 \
     --max_iter 5000 \
     --num_classes 2 \
     --valid_iter 200 \
     --lr 1e-4 \
-    --num_workers 0
+    --num_workers 0 \
+    --switch_mode smooth \
+    --switch_ratio 0.4
 ```
 
 🔹 Test the Model
