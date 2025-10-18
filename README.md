@@ -13,15 +13,15 @@ Our customized RSNA-MambaVesselNet++ effectively models both local texture detai
 
 ✨ Highlights
 
-🚀 Adapted MambaVesselNet++ for RSNA Intracranial Aneurysm Detection (MRA) data.
+🔹 Adapted MambaVesselNet++ for RSNA Intracranial Aneurysm Detection (MRA) data.
 
-🧩 Converted multi-class segmentation masks into binary vessel vs. background for improved clarity.
+🔹 Converted multi-class segmentation masks into binary vessel vs. background for improved clarity.
 
-⚙️ Combined CNN-based texture extraction with Mamba-based long-range modeling.
+🔹 Combined CNN-based texture extraction with Mamba-based long-range modeling.
 
-🩺 Achieved accurate and efficient vessel segmentation tailored for aneurysm detection tasks.
+🔹 Achieved accurate and efficient vessel segmentation tailored for aneurysm detection tasks.
 
-⚡ Trained and tested on **A100 GPU** for optimal performance
+🔹 Trained and tested on **A100 GPU** for optimal performance
 
 
 🚀## How to Run
