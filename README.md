@@ -32,30 +32,38 @@ git clone https://github.com/shimaaelbana/RSNA_2025-MambaVesselNet.git
 cd RSNA_2025-MambaVesselNet
 ```
 
-```bash
+
 ✅ Step 2 — Install PyTorch (CUDA 12.4 support)
 
+```bash
 pip install torch==2.6.0+cu124 torchvision==0.21.0+cu124 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 ```
 
 ✅ Step 3 — Fix Ninja installation (optional but recommended)
 
+```bash
 pip uninstall -y ninja
 pip install ninja --no-cache-dir --force-reinstall
+```
 
 ✅ Step 4 — Install causal-conv1d
 
+```bash
 cd causal-conv1d
 python setup.py install
 cd ..
+```
 
 ✅ Step 5 — Install Mamba
 
+```bash
 cd mamba
 python setup.py install
 cd ..
+```
 
 ✅ Step 6 — Install Required Libraries
 
+```bash
 pip install loguru monai nibabel tqdm scikit-image
-
+```
