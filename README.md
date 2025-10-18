@@ -10,7 +10,11 @@ In this work, we apply the MambaVesselNet++ architecture — a hybrid CNN-Mamba 
 dataset using MRA scans. We adapt the original model to perform binary vessel segmentation, converting the original multi-class labels into vessel (1) and background (0).
 
 Our customized RSNA-MambaVesselNet++ effectively models both local texture details and long-range spatial dependencies, achieving robust vessel segmentation performance suitable for clinical aneurysm.
-![RSNA MambaVesselNet++ Block Diagram](imgs/block_diagram.png)
+<h2 align="center">🧱 Model Architecture</h2>
+<p align="center">
+  <img src="imgs/block_diagram.png" alt="MambaVesselNet++ Block Diagram" width="600"/>
+</p>
+
 
 ✨ Highlights
 
