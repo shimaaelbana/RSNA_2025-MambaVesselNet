@@ -9,7 +9,8 @@ Medical image segmentation is essential for accurate computer-aided diagnosis. W
 In this work, we apply the MambaVesselNet++ architecture — a hybrid CNN-Mamba framework — to the RSNA Intracranial Aneurysm Detection 2025
 dataset using MRA scans. We adapt the original model to perform binary vessel segmentation, converting the original multi-class labels into vessel (1) and background (0).
 
-Our customized RSNA-MambaVesselNet++ effectively models both local texture details and long-range spatial dependencies, achieving robust vessel segmentation performance suitable for clinical aneurysm
+Our customized RSNA-MambaVesselNet++ effectively models both local texture details and long-range spatial dependencies, achieving robust vessel segmentation performance suitable for clinical aneurysm.
+![RSNA MambaVesselNet++ Block Diagram](imgs/block_diagram.png)
 
 ✨ Highlights
 
@@ -24,7 +25,7 @@ Our customized RSNA-MambaVesselNet++ effectively models both local texture detai
 🔹 Trained and tested on **A100 GPU** for optimal performance
 
 
-🚀## How to Run
+🚀## Installation
 
 ✅ Step 1 — Clone the Repository
 Please make sure your environment supports **CUDA ≥ 12.4**
