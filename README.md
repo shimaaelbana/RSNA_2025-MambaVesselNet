@@ -21,6 +21,8 @@ Our customized RSNA-MambaVesselNet++ effectively models both local texture detai
 
 🩺 Achieved accurate and efficient vessel segmentation tailored for aneurysm detection tasks.
 
+⚡ Trained and tested on **A100 GPU** for optimal performance
+
 
 🚀## How to Run
 
