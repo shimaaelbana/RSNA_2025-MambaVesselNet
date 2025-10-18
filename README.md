@@ -116,8 +116,9 @@ If you use this repository, please cite our paper:
   year={2025}
 }
 ```
+If you have any questions about our project, feel free to contact me by email at shimaa.elbanaa@aiet.edu.eg or alkabbany@aast.edu
 
 ## Acknowledgements
 
-We thank the authors of [Mamba] (https://github.com/state-spaces/mamba) and [VesselMamba++] (https://github.com/CC0117/MambaVesselNet/tree/main) for making their valuable code publicly available.
+We thank the authors of [Mamba](https://github.com/state-spaces/mamba) and [VesselMamba++](https://github.com/CC0117/MambaVesselNet/tree/main) for making their valuable code publicly available.
 
