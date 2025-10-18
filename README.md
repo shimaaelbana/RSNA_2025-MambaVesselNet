@@ -111,6 +111,14 @@ python /content/MambaVesselNet/test.py
 python /content/MambaVesselNet/evaluation.py
 ```
 
+## Visualization
+
+The following figure shows the visualization of the MambaVesselNet output.  
+It represents one slice from the 3D cerebrovascular volume to illustrate the model’s segmentation performance.
+
+![Visualization](RSNA_MambaVesselNe/imgs/Vis_2D.png)
+
+
 ## 📄 Citation
 If you use this repository, please cite our paper:
 
