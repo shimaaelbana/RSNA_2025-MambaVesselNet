@@ -22,6 +22,9 @@ Our customized RSNA-MambaVesselNet++ effectively models both local texture detai
 🔹 Achieved accurate and efficient vessel segmentation tailored for aneurysm detection tasks.
 
 🔹 Trained and tested on **A100 GPU** for optimal performance
+
+✨ Data Preparation
+
 This study uses the publicly available datasets related to cerebrovascular segmentation. Accessible at [MRA RSNA 2025 Competition Page](https://www.kaggle.com/datasets/shymaaelbana/vessel-mamba-mra)
 
 🚀## Installation
