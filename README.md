@@ -102,3 +102,22 @@ python /content/MambaVesselNet/test.py
 ```bash
 python /content/MambaVesselNet/evaluation.py
 ```
+
+## 📄 Citation
+If you use this repository, please cite our paper:
+
+> *arXiv preprint [arXiv:2510.03769](https://arxiv.org/abs/2510.03769), 2025.*
+
+```bibtex
+@article{elbana2025efficiency,
+  title={Efficiency vs. Efficacy: Assessing the Compression Ratio-Dice Score Relationship through a Simple Benchmarking Framework for Cerebrovascular 3D Segmentation},
+  author={Elbana, Shimaa and Kamal, Ahmad and Ali, Shahd Ahmed and Al-Kabbany, Ahmad},
+  journal={arXiv preprint arXiv:2510.03769},
+  year={2025}
+}
+```
+
+## Acknowledgements
+
+We thank the authors of [Mamba] (https://github.com/state-spaces/mamba) and [VesselMamba++] (https://github.com/CC0117/MambaVesselNet/tree/main) for making their valuable code publicly available.
+
