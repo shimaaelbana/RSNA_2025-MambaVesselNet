@@ -31,12 +31,12 @@ Please make sure your environment supports **CUDA ≥ 12.4**
 git clone https://github.com/shimaaelbana/RSNA_2025-MambaVesselNet.git
 cd RSNA_2025-MambaVesselNet
 
-```markdown
-
-✅ Step 2 — Install PyTorch (CUDA 12.4 support)
 ```bash
+✅ Step 2 — Install PyTorch (CUDA 12.4 support)
+
 pip install torch==2.6.0+cu124 torchvision==0.21.0+cu124 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 
+```bash
 ✅ Step 3 — Fix Ninja installation (optional but recommended)
 
 pip uninstall -y ninja
