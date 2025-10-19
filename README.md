@@ -2,7 +2,7 @@
 RSNA Intracranial Aneurysm Detection using MambaVesselNet++ architecture.
 
 
-## 📘 Overview
+## Overview
 
 Medical image segmentation is essential for accurate computer-aided diagnosis. While Vision Transformers have achieved great success, their quadratic self-attention mechanism leads to high computational costs. The recently proposed Mamba state space model provides an efficient alternative for capturing long-range dependencies with reduced memory usage.
 
@@ -19,7 +19,7 @@ Our customized RSNA-MambaVesselNet++ effectively models both local texture detai
 
 
 
-## ✨ Highlights
+##  Highlights
 
 🔹 Adapted MambaVesselNet++ for RSNA Intracranial Aneurysm Detection (MRA) data.
 
@@ -31,11 +31,11 @@ Our customized RSNA-MambaVesselNet++ effectively models both local texture detai
 
 🔹 Trained and tested on **A100 GPU** for optimal performance
 
-## ✨ Data Preparation
+##  Data Preparation
 
 This study uses the publicly available datasets related to cerebrovascular segmentation. Accessible at [MRA RSNA 2025 Competition Page](https://www.kaggle.com/datasets/shymaaelbana/vessel-mamba-mra)
 
-## 🚀 Installation
+##  Installation
 
 ✅ Step 1 — Clone the Repository
 Please make sure your environment supports **CUDA ≥ 12.4**
@@ -81,7 +81,7 @@ cd ..
 pip install loguru monai nibabel tqdm scikit-image SimpleITK torchprofile
 ```
 
-## 🧠 Training & Evaluation
+##  Training & Evaluation
 
 🔹 Train the Model
 
@@ -132,7 +132,7 @@ If you use this repository, please cite our paper:
   year={2025}
 }
 ```
-If you have any questions about our project, feel free to contact me by email at shimaa.elbanaa@aiet.edu.eg or alkabbany@aast.edu
+If you have any questions about our project, feel free to contact me by email at shimaa.elbanaa@aiet.edu.eg or alkabbany@ieee.org
 
 ## Acknowledgements
 
