@@ -36,6 +36,7 @@ You can download the pretrained model weights from the following link:
 [RSNA Vessel Mamba Checkpoints on Hugging Face](https://huggingface.co/Shimaaelbana/RSNAVesselMamba/tree/main)
 
 🔹 MRA_BS8_5000_warmstartbest_bestmodel.ckpt — Best checkpoint trained on MRA cerebrovascular segmentation for 5000 iterations (batch size 8) using Warm Start Loss, achieving top Dice performance.
+
 🔹 best_model_5000_DICELOSS.ckpt — Trained on MRA cerebrovascular dataset for 5000 iterations (batch size 2) using Dice Loss for segmentation optimization.
 
 ##  Data Preparation
