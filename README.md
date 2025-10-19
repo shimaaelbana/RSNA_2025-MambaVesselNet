@@ -11,11 +11,7 @@ dataset using MRA scans. We adapt the original model to perform binary vessel se
 
 Our customized RSNA-MambaVesselNet++ effectively models both local texture details and long-range spatial dependencies, achieving robust vessel segmentation performance suitable for clinical aneurysm.
 
-<p align="center">
-  <img src="RSNA_MambaVesselNe/imgs/block_diagram.png" width="1000" alt="MambaVesselNet++ Block Diagram"/>
-  <br>
-  <em>RSNA MambaVesselNet++ Block Diagram</em>
-</p>
+
 
 
 
